@@ -2,7 +2,7 @@
 
 - 프론트엔드 라이브러리를 jar로 패키징함.
 - maven으로 프론트엔드 라이브러리를 추가할 수 있다.
-- [WebJars](http://www.webjars.org/)
+- [WebJars](http://www.webjars.org/)에서 dependency를 찾을 수 있다.
 ```xml
 <dependency>
     <groupId>org.webjars</groupId>
