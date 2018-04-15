@@ -19,10 +19,13 @@ Mockito의 mock을 bean 대신 ```ApplicationContext```에 끼워 넣을 수 있
 동일한 설정을 공유하는 테스트의 컨텍스트를 다시 사용한다.
 - ```@MockBean```이나 ```@SpyBean```을 사용하면 캐쉬 키에 영향을 미치기 때문에 컨텍스트 수가 증가 할 가능성이 높다.
 - Mock은 구현이 아무것도 안되있기 때문에 기본 값(empty String)을 준다.
+- Mock bean은 객체를 새로 만들어서 등록하지만 Spy bean은 기존의 객체를 wrapping해서 사용한다.
+    - mocking 하는 메소드만 원하는대로 바뀌고 mocking하지 않는 다른 메소드들은 그대로 동작한다.
 
 ## 예제
 https://github.com/chori84/spring-boot-sample/tree/master/spring-boot-test
 
 ## 참고
 https://youtu.be/yJ_2eHBQW40
+https://www.youtube.com/watch?v=GECCfXZ0W6w
 https://docs.spring.io/spring-boot/docs/2.0.1.RELEASE/reference/htmlsingle/#boot-features-testing-spring-boot-applications-mocking-beans
