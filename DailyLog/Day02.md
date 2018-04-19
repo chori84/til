@@ -1,0 +1,5 @@
+- Spring Boot Reference
+    - [ConfigurableWebBindingInitializer.md](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/ConfigurableWebBindingInitializer.md)
+    - [TemplateEngines.md](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/TemplateEngines.md)
+    - [JspLimitations.md](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/JspLimitations.md)
+    - [ErrorHandling.md](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/ErrorHandling.md)

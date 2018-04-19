@@ -1,0 +1,8 @@
+- Spring Boot Reference
+    - [Auto-configured REST Clients](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredRESTClients.md)
+    - [Auto-configured Spring REST Docs Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredSpringRESTDocsTests.md)
+    - [User Configuration and Slicing](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/UserConfigurationAndSlicing.md)
+    - [ConfigFileApplicationContextInitializer](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/ConfigFileApplicationContextInitializer.md)
+    - [EnvironmentTestUtils](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/EnvironmentTestUtils.md)
+    - [OutputCapture](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/OutputCapture.md)
+    - [TestRestTemplate](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/TestRestTemplate.md)

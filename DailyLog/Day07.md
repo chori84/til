@@ -1,0 +1,12 @@
+- Spring Boot Reference
+    - [Auto-configured Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredTests.md)
+    - [Auto-configured JSON Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredJSONTests.md)
+    - [Auto-configured Spring MVC Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredSpringMVCTests.md)
+    - [Auto-configured Spring WebFlux Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredSpringWebFluxTests.md)
+    - [Auto-configured Data JPA Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredDataJPATests.md)
+    - [Auto-configured JDBC Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredJDBCTests.md)
+    - [Auto-configured jOOQ Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredJOOQTests.md)
+    - [Auto-configured Data MongoDB Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredDataMongoDBTests.md)
+    - [Auto-configured Data Neo4j Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredDataNeo4jTests.md)
+    - [Auto-configured Data Redis Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredDataRedisTests.md)
+    - [Auto-configured Data LDAP Tests](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/Auto-configuredDataLDAPTests.md)

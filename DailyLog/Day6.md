@@ -1,6 +1,0 @@
-- Spring Boot Reference
-    - [Detecting Test Configuration](https://github.com/chori84/til/blob/master/SpringBoot/DetectingTestConfiguration.md)
-    - [Excluding Test Configuration](https://github.com/chori84/til/blob/master/SpringBoot/ExcludingTestConfiguration.md)
-    - [Testing with a running server](https://github.com/chori84/til/blob/master/SpringBoot/TestingWithARunningServer.md)
-    - [Mocking and Spying Beans](https://github.com/chori84/til/blob/master/SpringBoot/MockingAndSpyingBeans.md)
-    - [Auto-configured Spring MVC Tests](https://github.com/chori84/til/blob/master/SpringBoot/Auto-configuredSpringMVCTests.md)

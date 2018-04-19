@@ -1,5 +1,5 @@
 - Spring Boot Reference
-    - [CORS Support](https://github.com/chori84/til/blob/master/SpringBoot/CorsSupport.md)
+    - [CORS Support](https://github.com/chori84/til/blob/master/SpringBoot/Reference_YouTube/CorsSupport.md)
 
 - 강의
     - [s75-특강](https://github.com/chori84/til/blob/master/CleanCode/s75-%ED%8A%B9%EA%B0%95.md)
