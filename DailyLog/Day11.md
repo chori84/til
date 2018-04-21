@@ -1,0 +1,2 @@
+- Javascript 기본
+    - [실행방법과 실습환경](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/02.Javascript기본-숫자와문자.md)
