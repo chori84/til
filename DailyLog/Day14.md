@@ -3,4 +3,4 @@
         - https://github.com/chori84/spring-boot-sample/tree/master/spring-boot-docker
 
 - Javascript 기본
-    - [조건문](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/04.Javascript기본-조건문.md)
+    - [조건문](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/05.Javascript기본-조건문.md)
