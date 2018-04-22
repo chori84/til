@@ -1,2 +1,2 @@
 - Javascript 기본
-    - [비교](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/04.Javascript기본-비교)
+    - [비교](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/04.Javascript기본-비교.md)
