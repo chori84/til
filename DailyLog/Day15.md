@@ -1,2 +1,2 @@
 - Javascript 기본
-    - [반복문](https://github.com/chori84/til/blob/mast6er/JavaScript/inflearn-javascript-basic/0.Javascript기본-반복문.md)
+    - [반복문](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/06.Javascript기본-반복문.md)
