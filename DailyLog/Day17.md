@@ -1,0 +1,2 @@
+- Javascript 기본
+    - [배열](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/08.Javascript기본-배열.md)
