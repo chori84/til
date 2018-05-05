@@ -19,7 +19,7 @@ public Job footballJob() {
 - Job(그리고 일반적으로 그 안에 있는 Step)은 JobRepository가 필요하다.
 - JobRepository의 설정은 BatchConfigurer를 통해 다룬다.
 - 위 Job은 세 개의 Step으로 이루어져 있다.
-- 작업 관련 빌더는 병렬화 ( Split), 선언적 플로우 제어 ( Decision) 및 플로우 정의 ( Flow)의 외부화에 도움이되는 다른 요소를 포함 할 수도 있다.
+- 작업 관련 빌더는 병렬화 (Split), 선언적 플로우 제어 (Decision) 및 플로우 정의 (Flow)의 외부화에 도움이되는 다른 요소를 포함 할 수도 있다.
 
 ### Restartability
 - 배치 작업을 실행할 때 발생하는 주요 문제 중 하나는 Job이 다시 시작될 때의 동작이다.
@@ -27,7 +27,6 @@ public Job footballJob() {
 - 이상적으로 모든 작업은 중단 된 부분부터 시작할 수 있어야하지만 불가능한 경우가 있다.
 - 이 시나리오에서 새로운 JobInstance가 생성 되도록하는 것은 전적으로 개발자의 몫이다.
 - Job을 절대 다시 시작해서는 안되지만, 항상 새로운 JobInstance의 일부로 실행해야하는 경우 restartable 속성을 'false'로 설정할 수 있습니다.
-
 
 ## Java Config
 - Spring3은 XML 외에도 Java를 통해 애플리케이션을 구성 할 수있는 기능을 제공한다.
