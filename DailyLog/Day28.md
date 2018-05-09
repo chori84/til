@@ -1,0 +1,2 @@
+- Javascript 기본
+    - [표준 내장객체의 확장](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/23.Javascript기본-표준내장객체의확장.md)
