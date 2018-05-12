@@ -1,0 +1,3 @@
+- Javascript 기본
+    - [데이터 타입](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/25.Javascript기본-데이터타입.md)
+    - [참조](https://github.com/chori84/til/blob/master/JavaScript/inflearn-javascript-basic/26.Javascript기본-참조.md)
