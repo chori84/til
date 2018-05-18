@@ -1,2 +1,2 @@
-- Head First - Design Patterns
-    - [Strategy Pattern](https://github.com/chori84/headfirst-designpatterns/tree/master/src/strategy)
+- Spring Batch
+    - [스프링 배치 실습 해보기](https://github.com/chori84/spring-boot-sample/tree/master/spring-boot-batch)
