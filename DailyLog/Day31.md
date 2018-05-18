@@ -1,0 +1,2 @@
+- Head First - Design Patterns
+    - [Strategy Pattern](https://github.com/chori84/headfirst-designpatterns/tree/master/src/strategy)
