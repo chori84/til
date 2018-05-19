@@ -1,0 +1,2 @@
+- Head First - Design Patterns
+    - [Observer Pattern](https://github.com/chori84/headfirst-designpatterns/tree/master/src/ch02_observer)
