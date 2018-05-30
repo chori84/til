@@ -60,6 +60,7 @@
 - 커넥션 관리
 - 특정 타입이나 특정 키를 위해 인터페이스 제공
 - 스레드 세이프하게 여러 인스턴스에서 재사용
+
 ## 문자열 중점 편의 클래스
 - StringRedisConnection, StringRedisTemplate
 - 레디스에 저장되는 키, 밸류가 java.lang.String인 경우가 흔하기 때문에 제공
@@ -109,4 +110,40 @@
     - 다양한 message의 타입의 핸들링 메소드가 있다.
     - 레디스 의존성을 가지고 있지 않다.
     - 메시지가 수신되면 RedisSerializer로 타입간 전환을 수행한다.
-    - 
+
+## 레디스 트랜잭션
+- multi, exec, discard 커맨드를 통하여 지원
+- RedisTemplate을 통해 사용 가능
+- 여러 작업이 같은 connection에서 트랜잭션 필요할 때 사용하는 SessionCallback 인터페이스 제공
+
+### @Transactional 지원
+- setEnableTransactionSupport(true) 설정으로 트랜잭션 활성화
+- MULTI로 발동, 정상 종료면 EXEC 호출, 에러 발생하면 DISCARD 호출
+
+### 파이프라이닝
+- 여러개의 커맨드를 응답 대기 없이 서버로 전송
+- 관련 RedisTemplate 메소드 제공
+- 파이프라인된 작업 결과를 신경 쓰지 않으면 execute 메소드 사용, pipeline 아규먼트에 true 전달
+- executePipelined 메소드는 RedisCallback이나 SessionCallback을 파이프라인에서 실행하고 결과 리턴
+
+## 레디스 스크립팅
+- eval, evalsha 명령어 통해 Lua 스크립트 실행 지원
+- Redistemplate의 execute 메소드를 통해 실행
+- ScriptExecutor를 사용
+- 스크립트의 SHA1을 얻고, evalsha를 시도한다.
+- 스크립트가 레디스 스크립트 캐쉬에 나타나지 않으면 eval 한다.
+- 원자적인 명령어 셋을 실행하는데 한 명령어 실행이 다른 결과에 의해 영향을 받는다.
+
+## 지원 클래스들
+- org.springframework.data.redis.support
+- atomic 카운터, JDK Collections 같은 인터페이스를 레디스에서 구현
+- atomic counter : Redis 키 증가를 쉽게 wrap하게 해준다.
+- Collections : 저장소나 API의 노출을 최소한하며, 레디스 키를 쉽게 관리 해준다.
+    - RedisSet, RedisZSet : intersection, union - set 작업
+    - RedisList : List, Queue, Deque 구현 - FIFO, LIFO, capped collection
+
+### 스프링 캐쉬 추상화 지원
+- org.springframework.data.redis.cache
+- RedisCacheManager 설정 추가
+- Cache 요청 될때마다 지연적으로 RedisCache를 초기화, Set으로 정의
+- setTransactionAware로 트랜잭션 지원 활성화
